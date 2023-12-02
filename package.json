@@ -1,0 +1,27 @@
+{
+  "name": "@itsmikita/bun-template",
+  "version": "0.0.0",
+  "author": "Mikita Stankiewicz <itsmikita@gmail.com>",
+  "module": "index.ts",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "build": "bun index.ts",
+    "clean": "rm -rf dist",
+    "reset": "rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn.lock && rm -rf bun.lockb"
+  },
+  "keywords": [
+    "bun"
+  ],
+  "repository": "https://github.com/itsmikita/bun-plate.git",
+  "dependencies": {
+    "bun": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
+  }
+}
